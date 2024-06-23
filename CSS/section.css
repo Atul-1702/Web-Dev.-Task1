@@ -1,0 +1,227 @@
+
+.img-content
+{
+   position: absolute;
+   top:300px;
+   left:15%;
+   color:white;
+}
+.img-content1
+{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.img-content2
+{
+    font-size: larger;
+    font-weight: bold;
+}
+.card1
+{
+    margin-bottom: 20px;
+   
+}
+.container1
+{
+    background-color: white;
+    margin-top: 375px;
+    border: 1px solid black;
+}
+.article
+{   
+    position: relative;
+    font-size: larger;
+    top:5px
+}
+.card-desc
+{
+    font-size: 21px;
+    color:rgb(92, 92, 92);
+}
+.image-name
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.card-icon
+{
+    font-size: x-large;
+}
+.views
+{
+    font-size: large;
+   position: relative;
+   bottom: 3px;
+   left: 3px;
+}
+.ellipse
+{
+    font-size: x-large;
+}
+li 
+{
+    list-style: none;
+    font-size: large;
+}
+.options
+{
+    height:70px;
+}
+.line
+{
+    height: 2px;
+    background-color: rgb(239, 239, 239);
+    margin-bottom: 20px;
+}
+.highlight
+{
+    height: 3px;
+    background-color: black;
+    width:98px;
+}
+.common-list
+{
+    color:rgb(167, 167, 167);
+}
+.margin-setter
+{
+    margin: 5%;
+    
+}
+.location-input
+{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    width:250px;
+}
+.location-input:focus
+{
+    outline: none;
+    
+}
+.location-info
+{
+    color:rgb(127, 127, 127);
+    width:250px;
+    font-weight: bold;
+    position: relative;
+}
+.location-icons
+{
+    position: relative;
+}
+.fa-location-dot
+{
+    position: absolute;
+    top:15px;
+}
+.fa-xmark
+{
+   position: absolute;
+   right:20px;
+   top:15px;
+}
+
+.pen
+{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    display: none;
+    z-index: 2;
+}
+.fa-pen
+{
+    font-size: x-large;
+    background-color: rgb(251, 91, 105);
+    color:white;
+}
+.filter-all
+{
+   display: none;
+}
+.responsive-parts
+{
+    display: none;
+}
+.responsive-parts i 
+{
+    color:white;
+}
+.responsive-parts button 
+{
+    padding: 10px;
+    border-radius: 10px;
+}
+.fa-user-group
+{
+    margin-right:10px ;
+}
+.common-button
+{
+    width:200px;
+}
+@media (768px<=width<=992px)
+{
+    .margin-setter
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .filter-button
+    {
+        display: none;
+    }
+}
+@media (width<=768px)
+{
+    .common-list
+    {
+        display: none;
+    }
+    .img-content
+    {
+        top:250px;
+    }
+    .pen
+    {
+        display: block;
+    }
+    .filter-all
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: large;
+    }
+    .options
+    {
+        height:20px;
+    }
+}
+@media (width<=576px)
+{
+    header
+    {
+        display: none;
+    }
+    .img-content
+    {
+        top:200px;
+    }
+    .img-content1
+    {
+        font-size: 30px;
+
+    }
+    .responsive-parts
+    {
+        display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    position: absolute;
+    top:10px;
+    }
+}

@@ -1,0 +1,67 @@
+
+body 
+{
+  background-image: url("../Images/background\ image.jpg");
+}
+.header
+{
+  padding: 20px;
+  background-color: white;
+}
+.header-title
+{
+  font-size: 32px;
+  font-style: italic;
+  color:green;
+  font-weight: 500;
+  
+}
+.fa-magnifying-glass
+{
+  position: absolute;
+  top:38px;
+  margin-left: 10px;
+}
+.header-button
+{
+  padding: 8px;
+  padding-right: 15px;
+}
+.arrow-icon
+{
+  margin-left: 3px;
+  color:darkorange
+}
+
+@media (768px<=width<=992px)
+{
+   .header-title
+   {
+    font-size: 25px;
+   }
+   .header-button-container
+   {
+    display: flex;
+    justify-content: end;
+   }
+   .fa-magnifying-glass
+   {
+     top:32px;
+   }
+}
+@media (576px<=width<=768px)
+{
+  .header-title
+  {
+   font-size: 22px;
+  }
+  .header
+  {
+    padding-left: 5px;
+    padding-right: 5px;    
+  }
+  .fa-magnifying-glass
+  {
+    top:31px;
+  }
+}
